@@ -1,0 +1,439 @@
+.header__escape
+{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    /* identical to box height, or 100% */
+
+
+    color: #FFFFFF;
+}
+
+.header
+{
+    height: 280px;
+    background-image: url(main.jpg);
+    background-repeat: no-repeat;
+    border-radius: 3px;
+}
+
+.footer
+{
+    height: 280px;
+    background-image: url(footer.png);
+    background-repeat: no-repeat;
+    border-radius: 3px; 
+}
+
+.header__links--home
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.header__links--categories
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.header__links--about
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.header__links--contacs
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* identical to box height, or 167% */
+
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.header__main--title
+{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 51px;
+    /* identical to box height, or 102% */
+
+    text-align: center;
+    letter-spacing: 2px;
+
+    color: #FFFFFF;
+}
+
+.header__main--description
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height, or 118% */
+
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.63);
+}
+
+.header__main--button
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    /* identical to box height, or 154% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.header__navigation--nature
+{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    text-align: center;
+
+    color: #768088;
+}
+
+.header__navigation--photography
+{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    text-align: center;
+
+    color: #768088;
+}
+
+.header__navigation--relaxation
+{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    text-align: center;
+
+    color: #768088;
+}
+
+.header__navigation--vacation
+{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    text-align: center;
+
+    color: #768088;
+}
+
+.header__navigation--travel
+{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    text-align: center;
+
+    color: #768088;
+}
+
+.header__navigation--adventure
+{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    text-align: center;
+
+    color: #768088;    
+}
+
+.featured__main
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height, or 135% */
+    
+    text-align: center;
+    letter-spacing: 2px;
+    
+    color: #2E2E2E;    
+}
+
+.featured__title
+{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 30px;
+    /* identical to box height, or 111% */
+
+
+    color: #FFFFFF;
+}
+
+.featured__discription
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 25px;
+    /* identical to box height, or 179% */
+    
+    
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.featured__author--name
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 35px;
+    /* identical to box height, or 292% */
+    
+    
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.featured__post1
+{
+    height: 280px;
+
+    background: url(theroadahead.jpg);
+    background-repeat: no-repeat;
+    border-radius: 3px;
+}
+
+.featured__post2
+{
+    height: 280px;
+
+    background: url(FromTopDown.jpg);
+    background-repeat: no-repeat;
+    border-radius: 3px;
+}
+
+.most-recent__main
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    /* identical to box height, or 135% */
+    
+    text-align: center;
+    letter-spacing: 2px;
+    
+    color: #2E2E2E;    
+}
+
+.most-recent__info--main
+{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    /* identical to box height, or 131% */
+    
+    
+    color: #101315;    
+}
+
+.most-recent__info--discription
+{
+
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 19px;
+    /* identical to box height, or 146% */
+    
+    
+    color: #7A7A7A;
+}
+
+.most-recent__author--name
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 35px;
+    /* identical to box height, or 318% */
+    
+    
+    color: #999999;
+}
+
+.most-recent__author--date
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 35px;
+    /* identical to box height, or 292% */
+    
+    
+    color: #999999;
+}
+
+.most-recent__post
+{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.09);
+    border-radius: 3px;    
+}
+
+.footer__name
+{
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 26px;
+    /* identical to box height, or 100% */
+    
+    
+    color: #FFFFFF;
+}
+
+.footer__nav--home
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 26px;
+    /* identical to box height, or 236% */
+    
+    text-align: right;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__nav--categories
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 26px;
+    /* identical to box height, or 236% */
+    
+    text-align: right;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__nav--about
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 26px;
+    /* identical to box height, or 236% */
+    
+    text-align: right;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer__nav--contacts
+{
+    font-family: 'Oxygen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 26px;
+    /* identical to box height, or 236% */
+    
+    text-align: right;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+    color: rgba(255, 255, 255, 0.6);
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Escape.Admin</title>
+    <link href="../static/css/admin.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Oxygen&display=swap" rel="stylesheet">
+    <script src = "../static/js/admin.js"></script>
+</head>
+
+<body>
+    <div class = "top">
+        <div class = "title">
+            <span class="escape">Escape.</span><span class ="escape-author">author</span>
+        </div>
+        <div class = "navigation">
+            <img src = "../static/assets/Avatar.png" height="32px" width="32px">
+            <img src = "../static/assets/log-out.png" class = "log-out" height="24px" width="24px">
+        </div>    
+    </div>
+    <section>
+        <div class = "main-newpost">
+            <div class = "title-newpost">
+                <h1 class = "newpost">New Post</h1>
+                <p class = "newpost-help">Fill out the form bellow and publish your article</p>
+            </div>    
+            <form><button class="title-newpost__button" type="button" id = "publishPost" onclick="getInformation()">Publish</button></form>
+        </div> 
+        <div class = "input-information">
+            <h2 class="title-input">Main information</h1>
+            <div class = "information">
+                <label class="information__label" for="title">Title</label>
+                <input class="information__input" type="text" name="title" placeholder="New Post" id = "name_of_post" value="">
+                <label class="information__label" for="description">Short description</label>
+                <input class="information__input" type="text" name="description" placeholder="Please, enter any description" id = "description_of_post">
+                <label class="information__label" for = "author">Author name</label>
+                <input class = "information__input_author" type = "text" name = "author" id = "author_name">
+                <label class = "information__label" for = "image-author">Author photo</label>
+                <div class = "information__upload-photo">
+                    <input name="image-author" type = "file" class = "information_photo" accept=".jpg, .jpeg, .png" id = "author_photo">
+                    <img src = "../static/assets/Photo.png" width="48px" height="48px">
+                    <p class = "information__upload-title">Upload</p>
+                </div>
+                <label class="information__label" for = "date" placeholder="04/18/2024">Publish date</label>
+                <input class = "information__input" type = "date" name = "date" id = "date">
+                <label class="information__label_hero" for = "hero_image_big">Hero Image</label>
+                <div>
+                    <input  name = "hero_image_big" type = "file" class = "information__hero_image-big" id = "hero_image_big">
+                    <img src = "../static/assets/hero-small.png" width="560px" height="160px">
+                </div>    
+                <label class="information__underlabel" for = "hero_image_big">Size up to 10mb. Format: png, jpeg, gif.</label>
+                <label class="information__label_hero" for = "hero_image_small">Hero Image</label>
+                <div>
+                    <input class = "information__hero_image-small" type = "file" name = "hero_image_small" id = "hero_image_small">
+                    <img src = "../static/assets/hero-big.png" width="296px" height="150px">
+                </div>    
+                <label class="information__underlabel" for = "hero_image_small">Size up to 5mb. Format: png, jpeg, gif.</label>
+                <div class = "information__preview">
+                  <p class="information__preview-text-article">Article preview</p> 
+                  <img src = "../static/assets/page preview.png" width="440px" height="385px">
+                  <p class="information__preview-text">Post card preview</p> 
+                  <img src = "../static/assets/card preview.png" width="440px" height="360px">
+                </div>    
+            </div>    
+        </div>
+        <div class = "content">
+            <h1 class = "content-title">Content</h1>
+            <label class="content-label" for = "content">Post content (plain text)</label>
+            <textarea class = "content-input" type = "text" name = "content" placeholder="Type anything you want ..."></textarea>
+        </div>  
+    </section>
+</body>
+
+</html>

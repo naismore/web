@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+    <link href="/static/css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__top">
+            <p class="header__escape">Escape.</p>
+            <nav class="header__links">
+                <a href="#" class="header__links_name">HOME</a>
+                <a href="#" class="header__links_name">CATEGORIES</a>
+                <a href="#" class="header__links_name">ABOUT</a>
+                <a href="#" class="header__links_name">CONTACTS</a>
+            </nav>
+        </div>
+        <div class="header__main">
+            <h1 class="header__main_title">Let's do it together.</h1>
+            <p class="header__main_description">We travel the world in search of stories. Come along for the ride.</p>
+            <form action="#"><button class="header__button">
+                    <p class="header__button_text">View Latest Posts</p>
+                </button></form>
+        </div>
+    </header>
+    <div class="navigation">
+        <nav class="navigation__menu">
+            <a href="#" class="navigation__menu_link">Nature</a>
+            <a href="#" class="navigation__menu_link">Photography</a>
+            <a href="#" class="navigation__menu_link">Relaxation</a>
+            <a href="#" class="navigation__menu_link">Vacation</a>
+            <a href="#" class="navigation__menu_link">Travel</a>
+            <a href="#" class="navigation__menu_link">Adventure</a>
+        </nav>
+    </div>
+    
+    <section class="post">
+        <div class="featured">
+            <div class = "featured__main">
+                <h2 class="featured__name">Featured Posts</h2>
+            </div>    
+            <div class="featured__content">
+              {{ range .FeaturedPosts }}
+              <div class=" {{ .ImgModifier }}">
+                <h4 class="featured__title">{{ .Title }}</h4>
+                <p class="featured__discription">{{ .Subtitle }}</p>
+                <div class="featured__author">
+                    <span class=" {{ .AuthorImg  }}"></span>
+                    <span class="featured__author_name">{{ .Author }}</span>
+                  <span class="featured__author_date">{{ .PublishDate }}</span>
+                </div>
+              </div>
+              {{ end }}
+            </div>
+        </div>
+
+        <div class="most-recent">
+            <div class="most-recent__main">
+                <h2 class="most-recent__name">Most Recent</h2>
+            </div>
+            <div class="most-recent__content">
+                {{ range .MostRecent }}
+                <div class="most-recent__post">
+                    <div class = "{{ .ImgModifier }}"></div>
+                    <div class="most-recent__info">
+                        <p class="most-recent__info_main"> {{ .Title  }}</p>
+                        <p class="most-recent__info_discription">{{ .Subtitle }}</p>
+                    </div>
+                    <div class="most-recent__author">
+                        <p><div class = " {{ .AuthorImg  }}"></div><span
+                                class="most-recent__author_name"> {{ .Author  }} </span><span
+                                class="most-recent__author_date"> {{ .PublishDate }}</span></p>
+                    </div>
+                </div>
+                {{ end }}
+            </div>
+        </div>
+    </section>
+
+    <div class="footer">
+        <div class ="footer__email">
+            <div class="footer__stay">
+                <p class="footer__stay_text">Stay in Touch</p>
+            </div>    
+            <form class="footer__inputemail">
+                <input placeholder="Enter your email adress" class="footer__input">
+                <form action="#"><button class="footer__button"><p class="footer__button-text">Submit</p></button></form>
+            </form>
+        </div>
+        <div class ="footer__navigation">
+            <p class="footer__name">Escape</p>
+            <nav class="footer__nav">
+                <a href="#" class="footer__nav_name">HOME</a>
+                <a href="#" class="footer__nav_name">CATEGORIES</a>
+                <a href="#" class="footer__nav_name">ABOUT</a>
+                <a href="#" class="footer__nav_name">CONTACTS</a>
+            </nav>
+        </div>
+    </div>
+</body>
+
+</html>

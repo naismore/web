@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link href = "css/styleposts.css" rel = "stylesheet">
+</head>
+<body>
+    <header class="header">
+            <p class = "header__name">Escape</p>
+            <nav class = "header__link">
+                <a href="#" class ="header__link_name">HOME</a>
+                <a href="#" class ="header__link_name">CATEGORIES</a>
+                <a href="#" class ="header__link_name">ABOUT</a>
+                <a href="#" class ="header__link_name">CONTACTS</a>
+        </div>    
+    </header>
+    <div class = "post">
+        <div class ="post__main">
+            <h1 class = "post__main_title">{{ .Title }}</h1>
+            <p class = "post__main_description">{{ .Subtitle }}</p>
+        </div>    
+        <img src = "images/post.png" width = 1440 height = 534 alt = "post" class = "post__image">
+        <div class ="post__text">
+            <p class = "post_text_p">{{ .Text }}</p>
+        </div>    
+    </div>
+    <div class="footer">
+        <div class ="footer__email">
+            <div class="footer__stay">
+                <p class="footer__stay_text">Stay in Touch</p>
+            </div>    
+            <form class="footer__inputemail">
+                <input placeholder="Enter your email adress" class="footer__input">
+                <form action="#"><button class="footer__button"><p class="footer__button-text">Submit</p></button></form>
+            </form>
+        </div>
+        <div class ="footer__navigation">
+            <p class="footer__name">Escape</p>
+            <nav class="footer__nav">
+                <a href="#" class="footer__nav_name">HOME</a>
+                <a href="#" class="footer__nav_name">CATEGORIES</a>
+                <a href="#" class="footer__nav_name">ABOUT</a>
+                <a href="#" class="footer__nav_name">CONTACTS</a>
+            </nav>
+        </div>
+    </div>
+</body>
+</html>

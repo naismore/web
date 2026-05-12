@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    height: 2200px;
+}
+
+.title {
+    padding: 0px 0px 0px 130px;
+}
+
+.navigation {
+    padding: 0px 139px 0px 0px;
+    display: flex;
+    align-items: center;
+    height: 74px;
+}
+
+.log-out {
+    padding: 0px 0px 0px 8px;
+}
+
+.top {
+    background: #2E2E2E;
+    height: 74px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.escape {
+    font: normal 400 25px/26px 'Lora', serif;
+    color: #ffffff;
+}
+
+.escape-author {
+    font: normal 400 13px/17px 'Lora', serif;
+    color: #ffffff;
+}
+
+section{
+    background: #F7F7F7;
+    height: 100%;
+    text-align: left;
+}
+
+.main-newpost{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 8px;
+    padding: 64px 130px 32px 130px;   
+}
+
+.newpost {
+    font: normal 400 34px/40px 'Lora', serif;
+    padding-bottom: 8px;
+    color: #000000;
+}
+
+.newpost-help {
+    font: normal 400 14px/20px 'Oxygen', serif;
+    color: rgba(46, 46, 46, 0.63);
+}
+
+.title-newpost__button {
+    width: 100px;
+    height: 48px;
+    background: #DD783F;
+    border-radius: 3px;
+    font: normal 400 16px/24px 'Oxygen', serif;
+    color: #FFFFFF;
+}
+
+.title-newpost__button:hover{
+    cursor: pointer;
+}
+
+.input-information{
+    background-color: #FFFFFF;
+    margin: 0px 130px 0px 130px;
+}
+
+.title-input {
+    font: normal 400 27px/30px 'Lora', serif;
+    color: #000000;
+    padding: 40px 0px 0px 40px;
+}
+
+.information__input {
+    background: #F7F7F7;
+    border-bottom: 1px solid #2E2E2E;
+    border-radius: 5px 5px 0px 0px;
+    width: 560px;
+    height: 40px;
+    padding: 5px 0px 0px 5px;
+}
+
+.information__input::placeholder {
+    font: normal 400 16px/24px 'Oxygen', serif;
+    padding-left: 4px;
+    color: #000000; 
+}
+
+.information {
+    padding: 0px 0px 0px 40px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 1060px;
+    width: 348px;
+}
+
+.information__label {
+    font: normal 400 12px/16px 'Oxygen', serif; 
+    padding: 40px 0px 0px 0px;
+    color: #7A7A7A;
+    margin: 5px;
+}
+
+.information__underlabel {
+    padding: 5px 0px 0px 0px;
+    color: #7A7A7A;
+    font: normal 400 12px/16px 'Oxygen', serif; 
+}
+
+.information__input_author {
+    border-bottom: 1px solid #F7F7F7;
+    border-radius: 5px 5px 0px 0px;
+    width: 560px;
+    height: 40px;
+    padding: 5px 0px 0px 5px;
+}
+
+.information__upload-title {
+    font: normal 400 16px/24px 'Oxygen', serif;
+    padding-left: 16px;  
+}
+
+.information__upload-photo {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.information__label_hero {
+    padding: 40px 0px 5px 0px;
+    color: #7A7A7A;
+    font: normal 400 12px/16px 'Oxygen', serif;
+}
+
+.information__hero_image-small{
+    position: absolute;
+    width: 296px;
+    height: 150px;
+    opacity: 0;
+    z-index: 2; 
+}
+
+.information__hero_image-small:hover{
+    cursor: pointer;
+}
+
+.information__hero_image-big{
+    position: absolute;
+    width: 560px;
+    height: 160px;
+    opacity: 0;
+    z-index: 2; 
+}
+
+.information__hero_image-big:hover{
+    cursor: pointer;
+}
+
+.information_photo{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    opacity: 0;
+    z-index: 2;
+}
+
+.information_photo:hover{
+    cursor: pointer;
+}
+
+.information__preview {
+    position: absolute;
+    right: 200px;
+}
+
+.information__preview-text {
+    font: normal 400 14px/20px 'Oxygen', serif;
+    padding: 20px 0px 13px 0px;
+    color: #7A7A7A;
+}
+
+.information__preview-text-article {
+    font: normal 400 14px/20px 'Oxygen', serif;
+    padding: 0px 0px 16px 0px;
+    margin-top: 40px;
+    color: #7A7A7A;
+}
+
+.content {
+    background-color: #FFFFFF;
+    margin: 16px 130px 0px 130px;
+    padding: 0px 0px 0px 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-title {
+    padding: 40px 0px 40px 0px;
+    font: normal 400 27px/30px 'Lora', serif; 
+    color: #000000;
+}
+
+.content-label {
+    padding: 0px 0px 5px 0px;
+    font: normal 400 12px/16px 'Lora', serif; 
+    color: #7A7A7A;
+    
+}
+
+.content-input { 
+    width: 940px;
+    height: 160px;
+    text-align: left;
+    border: 1px solid #EAEAEA;
+    border-radius: 5px;
+    font: normal 400 16px/24px 'Oxygen', serif;
+    color: #999999;
+    padding: 8px 8px 8px 8px;
+    margin-bottom: 56px ;
+}
+
+textarea{
+    resize: none;
+}

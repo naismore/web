@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Log In</title>
+    <link href="../static/css/login.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Oxygen&display=swap" rel="stylesheet">
+    <script src="../static/js/login.js"></script>
+    <script src="../static/js/showpass.js"></script>
+</head>
+
+<body>
+<section class = "background">
+    <div class = "escape">
+        <div class = "escape__title"><span class = "escape__title-escape">Escape.</span><span class = "escape__title-addition">author</span></div>
+        <div class = "escape__description">Log in to start creating</div>
+    </div>
+    <div class="login">
+        <p class="login__title">Log In</p>
+        <form class="">
+            <p><label class="login__label" for="email">Email</label></p>
+            <input class="login__input" type="email" id="email" name="email" required autofocus>
+        </form>
+
+        <form class="login__password-container">
+            <p><label class="login__label" for="password">Password</label></p>
+            <input class="login__input" type="password" id="password" name="pass" required>
+            <i class="toggle-visible" id="eye" onclick="showPassword()"></i>
+        </form>
+        <button class="login__button" type="submit" onclick="login()">Log In</button>
+    </div>
+</section>
+</body>
+
+</html>
